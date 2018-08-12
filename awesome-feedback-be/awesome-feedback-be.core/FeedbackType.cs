@@ -4,9 +4,10 @@ using System.Text;
 
 namespace awesome_feedback_be.core
 {
-    public class Template
+    public enum FeedbackType
     {
-        public string Name { get; set; }
-        public string ImageUrl { get; set; }
+        Rate,
+        YesNoWhy,
+        Multivalued
     }
 }

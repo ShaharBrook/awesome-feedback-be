@@ -7,7 +7,7 @@ namespace awesome_feedback_be.core
     public class Stats<T>
     {
         public Guid FormId { get; set; }
-        public string Type { get; set; }
+        public FeedbackType Type { get; set; }
         public T Content { get; set; }
     }
 }
