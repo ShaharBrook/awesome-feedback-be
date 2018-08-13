@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\awesome-feedback-be.core\awesome-feedback-be.core.csproj" />
+    <ProjectReference Include="..\awesome-feedback-be.DAL\awesome-feedback-be.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

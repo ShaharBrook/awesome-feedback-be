@@ -6,8 +6,8 @@ namespace awesome_feedback_be.core
 {
     public enum FeedbackType
     {
-        Rate,
-        YesNoWhy,
-        Multivalued
+        stars,
+        like,
+        tags
     }
 }

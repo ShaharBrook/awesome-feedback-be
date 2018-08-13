@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "awesome-feedback-be", "awes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awesome-feedback-be.core", "awesome-feedback-be.core\awesome-feedback-be.core.csproj", "{F72A2BC9-117B-4AD6-96F4-06F0EC2322FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awesome-feedback-be.DAL", "awesome-feedback-be.DAL\awesome-feedback-be.DAL.csproj", "{47E1297B-831F-4727-AEEC-F2F0661E466B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F72A2BC9-117B-4AD6-96F4-06F0EC2322FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F72A2BC9-117B-4AD6-96F4-06F0EC2322FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F72A2BC9-117B-4AD6-96F4-06F0EC2322FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E1297B-831F-4727-AEEC-F2F0661E466B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E1297B-831F-4727-AEEC-F2F0661E466B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E1297B-831F-4727-AEEC-F2F0661E466B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E1297B-831F-4727-AEEC-F2F0661E466B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
